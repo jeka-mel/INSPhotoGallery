@@ -2,8 +2,8 @@
 //  INSPhotoGallery.h
 //  INSPhotoGallery
 //
-//  Created by Vishal on 06/09/18.
-//  Copyright © 2018 Inspace. All rights reserved.
+//  Created by Mikhail Kotov on 10/12/17.
+//  Copyright © 2017 Curogram Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

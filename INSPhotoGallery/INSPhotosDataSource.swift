@@ -21,32 +21,32 @@ import Foundation
 
 public struct INSPhotosDataSource {
     public private(set) var photos: [INSPhotoViewable] = []
-    
+
     public var numberOfPhotos: Int {
         return photos.count
     }
-    
+
     public func photoAtIndex(_ index: Int) -> INSPhotoViewable? {
         if (index < photos.count && index >= 0) {
-            return photos[index];
+            return photos[index]
         }
         return nil
     }
-    
+
     public func indexOfPhoto(_ photo: INSPhotoViewable) -> Int? {
-        return photos.firstIndex(where: { $0 === photo})
+        return photos.firstIndex(where: { $0.isEqual(photo)})
     }
 
     public func containsPhoto(_ photo: INSPhotoViewable) -> Bool {
         return indexOfPhoto(photo) != nil
     }
-    
-    public mutating func deletePhoto(_ photo: INSPhotoViewable){
-        if let index = self.indexOfPhoto(photo){
+
+    public mutating func deletePhoto(_ photo: INSPhotoViewable) {
+        if let index = self.indexOfPhoto(photo) {
             photos.remove(at: index)
         }
     }
-    
+
     public subscript(index: Int) -> INSPhotoViewable? {
         get {
             return photoAtIndex(index)
