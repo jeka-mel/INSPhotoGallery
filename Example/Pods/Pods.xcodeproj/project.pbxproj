@@ -86,12 +86,12 @@
 		7133DA313AF0DD7FDFDDF67F16367E97 /* UIView+INSNibLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+INSNibLoading.h"; path = "INSNibLoading/iOS/UIView+INSNibLoading.h"; sourceTree = "<group>"; };
 		7705140AB2504D845815A0951C0D1374 /* INSNibLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSNibLoading-prefix.pch"; sourceTree = "<group>"; };
 		781F36D9A261F61196BAF8BA6AD584E0 /* Pods-INSPhotoGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INSPhotoGallery.release.xcconfig"; sourceTree = "<group>"; };
-		82194D36DC99B7682315FC1C737CE67F /* Pods_INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INSPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82194D36DC99B7682315FC1C737CE67F /* Pods_INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_INSPhotoGallery.framework; path = "Pods-INSPhotoGallery.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8350FA3EF06B34A6A643E3D9263581F3 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
 		89DC365FEF314CAE9760892B813E187E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8B2B79C088788E4D7E7B76FA33F7013A /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2B79C088788E4D7E7B76FA33F7013A /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F468F9D1E132E1A296A9EE3339C6B30 /* INSNibLoading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSNibLoading-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9746EE350C62391328467C55D2DE8840 /* Pods-INSPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-INSPhotoGallery.modulemap"; sourceTree = "<group>"; };
 		9EDA840484033556C356935D0E4F418B /* Pods-INSPhotoGallery-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-INSPhotoGallery-frameworks.sh"; sourceTree = "<group>"; };
 		A177A82C3DA9AA35565C58F8D9BCE301 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		E531859A6F7E000113A06B921070C657 /* Pods-INSPhotoGallery-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-INSPhotoGallery-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6C77DE2F059A2A56866429C90B3B392 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBF65ADCB67D946FF19159FEFA768A8C /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
-		EC3B22D5AEA21D531C58B3864EFBBBD3 /* INSNibLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSNibLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3B22D5AEA21D531C58B3864EFBBBD3 /* INSNibLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = INSNibLoading.framework; path = INSNibLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC8D39A6032D402C54C3D370955CB7C /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
 		F222071C02525D5A87A63FD78DD977CF /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		FBB8516D40219507CDD01A5E26351021 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
@@ -217,6 +217,7 @@
 				E24EF853706E2EC4036859E2D1CA13F3 /* UIButton+Kingfisher.swift */,
 				4937DA263AC86ABC16EB69E18C3CEF77 /* Support Files */,
 			);
+			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -227,6 +228,7 @@
 				506F6115F55C7DB4ECC7F49F03E443E1 /* UIView+INSNibLoading.m */,
 				E3110AB644DE4FFBFBAF0F45C9C74B48 /* Support Files */,
 			);
+			name = INSNibLoading;
 			path = INSNibLoading;
 			sourceTree = "<group>";
 		};
@@ -383,15 +385,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = F10F97F406DCD6F7270C2F70EE7C92AD /* Products */;
@@ -476,7 +477,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -536,7 +536,7 @@
 			};
 			name = Debug;
 		};
-		2397893146298CAB845C4BC249100299 /* Debug */ = {
+		45696D8DECC25FD36D388468C04B9B70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52E5B7F068D2736415EF88304D04573E /* INSNibLoading.xcconfig */;
 			buildSettings = {
@@ -560,38 +560,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3B55E5E9EB1BC29C01EC4E26F17F7B67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52E5B7F068D2736415EF88304D04573E /* INSNibLoading.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/INSNibLoading/INSNibLoading-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/INSNibLoading/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/INSNibLoading/INSNibLoading.modulemap";
-				PRODUCT_MODULE_NAME = INSNibLoading;
-				PRODUCT_NAME = INSNibLoading;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -633,6 +602,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		818FBFF58ED24224F112D3B693CA97B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E5B7F068D2736415EF88304D04573E /* INSNibLoading.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/INSNibLoading/INSNibLoading-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSNibLoading/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSNibLoading/INSNibLoading.modulemap";
+				PRODUCT_MODULE_NAME = INSNibLoading;
+				PRODUCT_NAME = INSNibLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8614C8B15342F3EE5FFAEC94ED601DC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -738,7 +738,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -789,7 +788,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -827,8 +825,8 @@
 		BC1F210D063BE1306DAEDAE0FD3E1D21 /* Build configuration list for PBXNativeTarget "INSNibLoading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2397893146298CAB845C4BC249100299 /* Debug */,
-				3B55E5E9EB1BC29C01EC4E26F17F7B67 /* Release */,
+				818FBFF58ED24224F112D3B693CA97B9 /* Debug */,
+				45696D8DECC25FD36D388468C04B9B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,7 +7,7 @@ DEPENDENCIES:
   - Kingfisher
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - INSNibLoading
     - Kingfisher
 
@@ -17,4 +17,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 65ef0a362e355fd18c77f31b51039f3d5b311896
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2
