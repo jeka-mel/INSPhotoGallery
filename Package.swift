@@ -1,12 +1,11 @@
-
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 import PackageDescription
 
 let package = Package(
     name: "INSPhotoGallery",    
     platforms: [
-      .iOS(.v8)
+      .iOS(.v9)
     ],
     products: [        
         .library(name: "INSPhotoGallery", targets: ["INSPhotoGallery"]),
