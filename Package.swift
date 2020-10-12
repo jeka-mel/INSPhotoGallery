@@ -8,9 +8,19 @@ let package = Package(
       .iOS(.v9)
     ],
     products: [        
-        .library(name: "INSPhotoGallery", targets: ["INSPhotoGallery"]),
+        .library(
+            name: "INSPhotoGallery", 
+            targets: ["INSPhotoGallery"]
+        )
     ],
     targets: [     
-        .target(name: "INSPhotoGallery", path: "INSPhotoGallery"),
+        .target(
+            name: "INSPhotoGallery", 
+            path: "INSPhotoGallery",
+            exclude: ["Info.plist"],
+            resources: [
+                .process("INSPhotoGallery.bundle"),
+            ]
+        )
     ]
 )
