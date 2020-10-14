@@ -190,7 +190,7 @@ open class INSPhotosOverlayView: UIView, INSPhotosOverlayViewable {
         
         let bundlePath: String?
         
-        #if swift(>=5.3)
+        #if SWIFT_PACKAGE
         bundlePath = Bundle.module.path(forResource: "INSPhotoGallery", ofType: "bundle")
         #else
         bundlePath = Bundle(for: type(of: self)).path(forResource: "INSPhotoGallery", ofType: "bundle")
